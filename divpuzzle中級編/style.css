@@ -1,0 +1,49 @@
+@charset "utf-8";
+body{
+    margin: 0;
+}
+.frex {
+    display: flex;
+}
+.red--box {
+width: 400px;
+height: 100px;
+background: #ff0000
+}
+.green--box {
+width: 150px;
+height: 250px;
+float: left;
+background: #00ff51
+}
+.blue--box {
+width: 300px;
+height: 150px;
+background:#0093b7
+}
+.orange--box {
+width: 100px;
+height: 150px;
+float: left;
+background: #ff9e6b
+}
+.purple--box {
+width:150px;
+height: 50px;
+float: left;
+background: #cc00db
+}
+
+.brown--box {
+width: 250px;
+height: 100px;
+float: left;
+background: #8c2727
+}
+.yellow--box {
+width: 400px;
+height: 100px;
+float: left;
+clear: left;
+background: #fff700
+}
