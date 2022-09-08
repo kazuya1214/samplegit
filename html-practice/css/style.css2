@@ -1,0 +1,14 @@
+@charset "utf-8";
+p{
+color: red;
+}
+/* id名　*/
+#main--area {
+widht: 1100px;
+margin: 0 auto;
+}
+
+/* class名 */
+.text--red {
+color: red;
+}
