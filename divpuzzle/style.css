@@ -10,6 +10,11 @@ body{
     height: 100px;
     background: #ff0000;
 }
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+ }
 .green--box {
     width: 150px;
     height: 250px;
