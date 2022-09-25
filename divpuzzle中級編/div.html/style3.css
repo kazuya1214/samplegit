@@ -1,0 +1,48 @@
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.purple--box{
+  width: 150px;
+  height: 50px;
+  background-color: #cc00db;
+}
+.blue--box{
+  width:150px;
+  height: 100px;
+  background-color:#0093b7;
+}
+.orange--box {
+  width: 100px;
+  height: 150px;
+  float: left;
+  background: #ff9e6b
+}
+.pb{
+  float:left;
+}
+.brown--box {
+  width: 250px;
+  height: 100px;
+  background: #8c2727
+}
+.green--box {
+  width: 150px;
+  height: 250px;
+  float: left;
+  background: #00ff51
+}
+.pbob{
+  float: left;
+}
+.red--box {
+  width: 400px;
+  height: 100px;
+  background: #ff0000
+}
+.yellow--box {
+  width: 400px;
+  height: 100px;
+  background: #fff700
+}
