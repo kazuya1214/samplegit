@@ -28,29 +28,15 @@ display: flex;
   top: 40px;
   left: 40px;
 }
-.orange--side1{
+.orange--side{
   width: 140px;
   height: 40px;
   background:#ff863f;
-  margin: 5px;
   border-style: solid;
   border-color: #ffffff;
 }
-.orange--side2 {
-  width: 140px;
-  height: 40px;
-  background:#ff863f;
-  margin: 5px;
-  border-style: solid;
-  border-color: #ffffff;
-}
-.orange--side3 {
-  width: 140px;
-  height: 40px;
-  background:#ff863f;
-  margin: 5px;
-  border-style: solid;
-  border-color: #ffffff;
+.orange--main :nth-child(2){
+  margin: 5px 0;
 }
 .yellow--box{
   height: 100px;
