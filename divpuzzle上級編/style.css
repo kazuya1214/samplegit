@@ -30,6 +30,39 @@ display: flex;
   float: left;
   background: #cc00db;
 }
-.purple--main :nth-child(2){
+.purple--main :nth-child(2n){
   margin: 0 10px;
+}
+.green--box {
+  width: 150px;
+  height: 250px;
+  float: left;
+  background: #00ff51
+}
+.brown--box {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  float: left;
+  background: #8c2727
+}
+.orange--main{
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.orange--side{
+  width: 140px;
+  height: 40px;
+  background:#ff863f;
+  border-style: solid;
+  border-color: #ffffff;
+}
+.orange--main :nth-child(2n){
+  margin: 5px 0;
+}
+.yellow--box{
+  height: 100px;
+  width: 400px;
+  background: #fff700
 }
