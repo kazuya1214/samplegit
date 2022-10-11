@@ -28,10 +28,10 @@ display: flex;
   width: 40px;
   height: 40px;
   float: left;
-  background: #cc00db;
+  background: #a9004b
 }
-.purple--main :nth-child(2n){
-  margin: 0 10px;
+.purple--main :nth-child(n+2){
+  margin: 0 0 0 10px;
 }
 .green--box {
   width: 150px;
@@ -56,10 +56,11 @@ display: flex;
   height: 40px;
   background:#ff863f;
   border-style: solid;
+  border-width: 5px;
   border-color: #ffffff;
 }
-.orange--main :nth-child(2n){
-  margin: 5px 0;
+.orange--main :nth-child(n+2){
+  margin: 10px 0 0 0;
 }
 .yellow--box{
   height: 100px;
